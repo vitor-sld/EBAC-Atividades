@@ -1,0 +1,12 @@
+#form-space {
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#form-space .container{
+    max-width: 600px;
+}
