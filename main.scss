@@ -11,25 +11,27 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1%;
+
+    &--destaque {
+        border: 2px solid gold;
+        padding: 8px;
+        background-color: #ffff42;
+    }
+    
 }
 
 .produto {
 
-    &-imagem {
+    &__imagem {
         width: 100%;
     }
 
-    &-nome {
+    &__nome {
         font-size: 1.2em;
         margin: 8px 0;
     }
 
-    &-descricao {
+    &__descricao {
         color: gray;
     }
 } 
-.em-destaque {
-    border: 2px solid gold;
-    padding: 8px;
-    background-color: #ffff42;
-}
