@@ -11,12 +11,6 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1%;
-
-    &--destaque {
-        border: 2px solid gold;
-        padding: 8px;
-        background-color: #ffff42;
-    }
     
 }
 
@@ -33,5 +27,11 @@
 
     &__descricao {
         color: gray;
+    }
+     
+    &--destaque {
+     border: 2px solid gold;
+     padding: 8px;
+     background-color: #ffff42;
     }
 } 
