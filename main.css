@@ -12,11 +12,6 @@
   grid-template-columns: 33% 33% 33%;
   grid-column-gap: 1%;
 }
-.produtos--destaque {
-  border: 2px solid gold;
-  padding: 8px;
-  background-color: #ffff42;
-}
 
 .produto__imagem {
   width: 100%;
@@ -27,6 +22,11 @@
 }
 .produto__descricao {
   color: gray;
+}
+.produto--destaque {
+  border: 2px solid gold;
+  padding: 8px;
+  background-color: #ffff42;
 }
 
 /*# sourceMappingURL=main.css.map */
